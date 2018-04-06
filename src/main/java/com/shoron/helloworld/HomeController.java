@@ -32,4 +32,10 @@ public class HomeController {
 		return "My name is Shoron";
 	}
 	
+	@RequestMapping(value="/login")
+	@ResponseBody
+	public String login(){
+		return "Welcome To Login Page";
+	}
+	
 }
